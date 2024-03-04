@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    background-color: #2d2d2d;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+    .nav-links li {
+        display: inline;
+        margin-left: 20px;
+    }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+        }
+
+.social-icons {
+    float: right;
+}
+
+    .social-icons img {
+        width: 30px;
+        margin-left: 10px;
+    }
+
+.home {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-overlay {
+    color: white;
+}
+
+    .text-overlay h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+.btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+    .btn:hover {
+        background-color: #e67e22;
+    }
+
+.quem-somos {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+    .quem-somos h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+.quem-somos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quem-somos .image img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.quem-somos .text {
+    margin-top: 20px;
+}
+
+.nossos-trabalhos {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+    .nossos-trabalhos h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+.nossos-clientes {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+    .nossos-clientes h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+.contato {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+    .contato h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
